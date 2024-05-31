@@ -1,0 +1,509 @@
+Disk_Application.exe: 000019A4: 09:34:51 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0
+Disk_Application.exe: 00002404: 09:43:35 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00002404: 09:43:35 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00002404: 09:43:35 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00002404: 09:43:35 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00002404: 09:43:35 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 0000202C: 09:44:36 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\favicon.ico
+Disk_Application.exe: 000026A8: 10:17:20 []:>--------------------------------------------------------------<
+Disk_Application.exe: 000026A8: 10:17:20 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 000026A8: 10:17:20 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 000026A8: 10:17:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 000026A8: 10:17:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 000030D0: 12:05:52 []:>--------------------------------------------------------------<
+Disk_Application.exe: 000030D0: 12:05:52 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 000030D0: 12:05:52 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 000030D0: 12:05:52 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 000030D0: 12:05:52 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 000034EC: 12:11:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: E6YlMo6c7i10ED8B4EB ) : Addr: $00BE437D
+Disk_Application.exe: 000030D0: 12:22:23 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 000030D0: 12:22:23 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 000030D0: 12:22:24 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 000030D0: 12:22:24 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 000030D0: 12:22:24 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 000030D0: 12:22:24 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 000030D0: 12:22:24 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 000030D0: 12:22:24 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 000030D0: 12:22:24 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 000030D0: 12:22:24 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 000030D0: 12:22:24 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 000030D0: 12:22:24 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 000030D0: 12:22:24 []:<-------------------------------------------------------------->
+Disk_Application.exe: 000030D0: 12:22:24 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00001B68: 12:22:33 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00001B68: 12:22:33 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00001B68: 12:22:33 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00001B68: 12:22:33 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00001B68: 12:22:33 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00003290: 12:22:35 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: AHmtFW5b3v10ED8B655 ) : Addr: $00FA437D
+Disk_Application.exe: 00002FA8: 12:31:12 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: cTqb2iFgfb10ED8B971 ) : Addr: $00FA437D
+Disk_Application.exe: 00002F14: 12:31:12 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: cTqb2iFgfb10ED8B971 ) : Addr: $00FA437D
+Disk_Application.exe: 00002F14: 12:31:12 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: cTqb2iFgfb10ED8B971 ) : Addr: $00FA437D
+Disk_Application.exe: 00002FA8: 12:31:12 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: cTqb2iFgfb10ED8B971 ) : Addr: $00FA437D
+Disk_Application.exe: 00001B68: 12:35:28 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00001B68: 12:35:28 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00001B68: 12:35:30 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00001B68: 12:35:30 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00001B68: 12:35:30 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00001B68: 12:35:30 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00001B68: 12:35:30 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00001B68: 12:35:30 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00001B68: 12:35:30 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00001B68: 12:35:30 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00001B68: 12:35:30 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00001B68: 12:35:30 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00001B68: 12:35:30 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00001B68: 12:35:30 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00003598: 12:35:34 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00003598: 12:35:34 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00003598: 12:35:34 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00003598: 12:35:34 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00003598: 12:35:34 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00003598: 12:35:34 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 0000315C: 12:35:35 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: wc8xMt7REf10ED8BBCA ) : Addr: $00FC437D
+Disk_Application.exe: 000032AC: 12:40:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Xr5vOyn9x210ED8BCF8 ) : Addr: $00FC437D
+Disk_Application.exe: 000032AC: 12:40:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Xr5vOyn9x210ED8BCF8 ) : Addr: $00FC437D
+Disk_Application.exe: 00002584: 12:46:50 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: WEJjC8I18C10ED8BE47 ) : Addr: $00FC437D
+Disk_Application.exe: 00003598: 12:52:49 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00003598: 12:52:49 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00003598: 12:52:50 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00003598: 12:52:50 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00003598: 12:52:50 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00003598: 12:52:50 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00003598: 12:52:50 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00003598: 12:52:50 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00003598: 12:52:50 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00003598: 12:52:50 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00003598: 12:52:50 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00003598: 12:52:50 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00003598: 12:52:50 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00003598: 12:52:50 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00003478: 12:52:54 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00003478: 12:52:54 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00003478: 12:52:54 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00003478: 12:52:54 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00003478: 12:52:54 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00003478: 12:52:54 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00000008: 12:53:09 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: swmx8Ohxqc10ED8C064 ) : Addr: $00C2437D
+Disk_Application.exe: 00002E20: 12:53:14 [127.0.0.1]:EDatabaseError : Qusertable: Field 'contact_no' not found : Addr: $00A6797E
+Disk_Application.exe: 00000008: 12:53:25 [127.0.0.1]:EDatabaseError : Qusertable: Field 'contact_no' not found : Addr: $00A6797E
+Disk_Application.exe: 00003478: 12:54:49 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00003478: 12:54:49 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00003478: 12:54:50 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00003478: 12:54:50 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00003478: 12:54:50 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00003478: 12:54:50 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00003478: 12:54:50 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00003478: 12:54:50 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00003478: 12:54:50 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00003478: 12:54:50 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00003478: 12:54:50 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00003478: 12:54:50 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00003478: 12:54:50 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00003478: 12:54:50 [Terminated]:Exit Code: 0
+Disk_Application.exe: 000030E0: 12:54:54 []:>--------------------------------------------------------------<
+Disk_Application.exe: 000030E0: 12:54:54 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 000030E0: 12:54:54 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 000030E0: 12:54:54 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 000030E0: 12:54:54 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 000030E0: 12:54:54 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00002184: 12:54:59 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ghMAyGCiHw10ED8C1BC ) : Addr: $0053437D
+Disk_Application.exe: 000030E0: 12:56:14 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 000030E0: 12:56:14 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 000030E0: 12:56:15 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 000030E0: 12:56:15 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 000030E0: 12:56:15 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 000030E0: 12:56:15 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 000030E0: 12:56:15 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 000030E0: 12:56:15 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 000030E0: 12:56:15 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 000030E0: 12:56:15 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 000030E0: 12:56:15 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 000030E0: 12:56:15 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 000030E0: 12:56:15 []:<-------------------------------------------------------------->
+Disk_Application.exe: 000030E0: 12:56:15 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00002E40: 12:56:18 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00002E40: 12:56:18 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00002E40: 12:56:18 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00002E40: 12:56:18 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00002E40: 12:56:18 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00002E40: 12:56:18 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 0000083C: 12:56:20 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: d7EojqYL3V10ED8C23B ) : Addr: $0095437D
+Disk_Application.exe: 00002248: 12:57:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: jTHJYLLSSr10ED8C298 ) : Addr: $0095437D
+Disk_Application.exe: 00002E40: 12:59:00 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00002E40: 12:59:00 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00002E40: 12:59:01 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00002E40: 12:59:01 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00002E40: 12:59:01 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00002E40: 12:59:01 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00002E40: 12:59:01 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00002E40: 12:59:01 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00002E40: 12:59:01 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00002E40: 12:59:01 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00002E40: 12:59:01 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00002E40: 12:59:01 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00002E40: 12:59:01 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00002E40: 12:59:01 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00000898: 12:59:05 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00000898: 12:59:05 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00000898: 12:59:05 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00000898: 12:59:05 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00000898: 12:59:05 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00000898: 14:00:25 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00000898: 14:00:25 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00000898: 14:00:26 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00000898: 14:00:26 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00000898: 14:00:26 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00000898: 14:00:26 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00000898: 14:00:26 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00000898: 14:00:26 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00000898: 14:00:26 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00000898: 14:00:26 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00000898: 14:00:26 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00000898: 14:00:26 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00000898: 14:00:26 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00000898: 14:00:26 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00000BDC: 14:00:31 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00000BDC: 14:00:31 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00000BDC: 14:00:31 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00000BDC: 14:00:31 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00000BDC: 14:00:31 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 000029B8: 14:00:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ld3kR56DZu10ED8C35A ) : Addr: $0123437D
+Disk_Application.exe: 00000BDC: 14:07:11 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00000BDC: 14:07:11 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00000BDC: 14:07:11 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00000BDC: 14:07:11 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00000BDC: 14:07:11 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00000BDC: 14:07:11 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00000BDC: 14:07:11 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00000BDC: 14:07:11 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00000BDC: 14:07:11 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00000BDC: 14:07:11 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00000BDC: 14:07:11 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00000BDC: 14:07:11 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00000BDC: 14:07:11 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00000BDC: 14:07:11 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00003320: 14:07:23 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00003320: 14:07:23 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00003320: 14:07:23 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00003320: 14:07:23 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00003320: 14:07:23 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00001C68: 14:07:26 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 1yiaGGXYMT10ED8D404 ) : Addr: $008C437D
+Disk_Application.exe: 00002A14: 14:07:27 [127.0.0.1]:EAccessViolation : Access violation at address 00B04A15 in module 'Disk_Application.exe'. Read of address 0000007B : Addr: $00B04A15
+Disk_Application.exe: 00002A14: 14:07:38 [127.0.0.1]:EAccessViolation : Access violation at address 00B04A15 in module 'Disk_Application.exe'. Read of address 0000007B : Addr: $00B04A15
+Disk_Application.exe: 00002A14: 14:07:45 [127.0.0.1]:EAccessViolation : Access violation at address 00B04A15 in module 'Disk_Application.exe'. Read of address 0000007B : Addr: $00B04A15
+Disk_Application.exe: 00003320: 14:08:30 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00003320: 14:08:30 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00003320: 14:08:31 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00003320: 14:08:31 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00003320: 14:08:31 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00003320: 14:08:31 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00003320: 14:08:32 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00003320: 14:08:32 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00003320: 14:08:32 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00003320: 14:08:32 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00003320: 14:08:32 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00003320: 14:08:32 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00003320: 14:08:32 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00003320: 14:08:32 [Terminated]:Exit Code: 0
+Disk_Application.exe: 000023A8: 14:08:34 []:>--------------------------------------------------------------<
+Disk_Application.exe: 000023A8: 14:08:34 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 000023A8: 14:08:34 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 000023A8: 14:08:34 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 000023A8: 14:08:34 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 000023A8: 14:08:34 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 000025C4: 14:08:38 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: JUWv1YvUdv10ED8D5E2 ) : Addr: $0109437D
+Disk_Application.exe: 000023A8: 14:15:48 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 000023A8: 14:15:48 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 000023A8: 14:15:49 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 000023A8: 14:15:49 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 000023A8: 14:15:49 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 000023A8: 14:15:49 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 000023A8: 14:15:49 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 000023A8: 14:15:49 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 000023A8: 14:15:49 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 000023A8: 14:15:49 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 000023A8: 14:15:49 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 000023A8: 14:15:49 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 000023A8: 14:15:49 []:<-------------------------------------------------------------->
+Disk_Application.exe: 000023A8: 14:15:49 [Terminated]:Exit Code: 0
+Disk_Application.exe: 000032F8: 14:15:52 []:>--------------------------------------------------------------<
+Disk_Application.exe: 000032F8: 14:15:52 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 000032F8: 14:15:52 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 000032F8: 14:15:52 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 000032F8: 14:15:52 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00002A98: 14:15:53 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: jZr5JLhl6E10ED8D635 ) : Addr: $0097437D
+Disk_Application.exe: 000032F8: 14:16:22 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 000032F8: 14:16:22 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 000032F8: 14:16:23 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 000032F8: 14:16:23 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 000032F8: 14:16:23 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 000032F8: 14:16:23 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 000032F8: 14:16:23 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 000032F8: 14:16:23 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 000032F8: 14:16:23 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 000032F8: 14:16:23 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 000032F8: 14:16:23 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 000032F8: 14:16:23 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 000032F8: 14:16:23 []:<-------------------------------------------------------------->
+Disk_Application.exe: 000032F8: 14:16:23 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00001160: 14:16:26 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00001160: 14:16:26 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00001160: 14:16:26 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00001160: 14:16:26 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00001160: 14:16:26 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00001160: 14:16:26 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 000035DC: 14:16:34 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 2VYHtivi1z10ED8D82D ) : Addr: $0118437D
+Disk_Application.exe: 00001160: 14:16:52 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00001160: 14:16:52 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00001160: 14:16:54 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00001160: 14:16:54 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00001160: 14:16:54 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00001160: 14:16:54 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00001160: 14:16:54 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00001160: 14:16:54 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00001160: 14:16:54 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00001160: 14:16:54 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00001160: 14:16:54 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00001160: 14:16:54 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00001160: 14:16:54 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00001160: 14:16:54 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00003758: 14:16:54 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00003758: 14:16:54 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00003758: 14:16:54 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00003758: 14:16:54 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00003758: 14:16:54 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00003758: 14:16:54 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00002A58: 14:17:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SncYq9FZrV10ED8D85D ) : Addr: $0118437D
+Disk_Application.exe: 00003758: 14:29:51 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00003758: 14:29:51 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00003758: 14:29:52 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00003758: 14:29:52 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00003758: 14:29:52 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00003758: 14:29:52 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00003758: 14:29:52 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00003758: 14:29:52 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00003758: 14:29:52 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00003758: 14:29:52 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00003758: 14:29:52 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00003758: 14:29:52 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00003758: 14:29:52 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00003758: 14:29:52 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00001D84: 14:29:57 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00001D84: 14:29:57 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00001D84: 14:29:57 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00001D84: 14:29:57 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00001D84: 14:29:57 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 000031E0: 14:30:06 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: iWGnlMqCMt10ED8D87C ) : Addr: $0107437D
+Disk_Application.exe: 00001D84: 14:31:56 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00001D84: 14:31:56 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00001D84: 14:31:57 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00001D84: 14:31:57 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00001D84: 14:31:57 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00001D84: 14:31:57 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00001D84: 14:31:57 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00001D84: 14:31:57 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00001D84: 14:31:57 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00001D84: 14:31:57 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00001D84: 14:31:57 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00001D84: 14:31:57 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00001D84: 14:31:57 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00001D84: 14:31:57 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00002788: 14:32:00 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00002788: 14:32:00 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00002788: 14:32:00 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00002788: 14:32:00 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00002788: 14:32:00 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00002788: 14:32:00 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00002B4C: 14:32:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: v46vZZMmtw10ED8DC08 ) : Addr: $0127437D
+Disk_Application.exe: 00002788: 14:32:39 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00002788: 14:32:39 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00002788: 14:32:40 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00002788: 14:32:40 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00002788: 14:32:40 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00002788: 14:32:40 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00002788: 14:32:40 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00002788: 14:32:40 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00002788: 14:32:40 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00002788: 14:32:40 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00002788: 14:32:40 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00002788: 14:32:40 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00002788: 14:32:40 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00002788: 14:32:40 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00002BEC: 14:32:43 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00002BEC: 14:32:43 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00002BEC: 14:32:43 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00002BEC: 14:32:43 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00002BEC: 14:32:43 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00002BEC: 14:32:43 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00000BB4: 14:32:45 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 23z1IB41HU10ED8DC8D ) : Addr: $010F437D
+Disk_Application.exe: 00002BEC: 14:33:46 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00002BEC: 14:33:46 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00002BEC: 14:33:47 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00002BEC: 14:33:47 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00002BEC: 14:33:47 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00002BEC: 14:33:47 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00002BEC: 14:33:47 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00002BEC: 14:33:47 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00002BEC: 14:33:47 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00002BEC: 14:33:47 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00002BEC: 14:33:47 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00002BEC: 14:33:47 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00002BEC: 14:33:47 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00002BEC: 14:33:47 [Terminated]:Exit Code: 0
+Disk_Application.exe: 000026A8: 14:33:51 []:>--------------------------------------------------------------<
+Disk_Application.exe: 000026A8: 14:33:51 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 000026A8: 14:33:51 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 000026A8: 14:33:51 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 000026A8: 14:33:51 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 000026A8: 14:33:51 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00001A9C: 14:33:53 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: mXyBrbzQ3R10ED8DCC0 ) : Addr: $00D8437D
+Disk_Application.exe: 000026A8: 14:38:05 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 000026A8: 14:38:05 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 000026A8: 14:38:06 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 000026A8: 14:38:06 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 000026A8: 14:38:06 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 000026A8: 14:38:06 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 000026A8: 14:38:06 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 000026A8: 14:38:06 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 000026A8: 14:38:06 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 000026A8: 14:38:06 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 000026A8: 14:38:06 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 000026A8: 14:38:06 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 000026A8: 14:38:06 []:<-------------------------------------------------------------->
+Disk_Application.exe: 000026A8: 14:38:06 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00002D64: 14:38:09 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00002D64: 14:38:09 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00002D64: 14:38:09 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00002D64: 14:38:09 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00002D64: 14:38:09 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00002D64: 14:38:09 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 000011FC: 14:38:12 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: MsGischwqE10ED8DD0F ) : Addr: $00CC437D
+Disk_Application.exe: 00002D64: 14:39:04 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00002D64: 14:39:04 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00002D64: 14:39:05 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00002D64: 14:39:05 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00002D64: 14:39:05 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00002D64: 14:39:05 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00002D64: 14:39:05 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00002D64: 14:39:05 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00002D64: 14:39:05 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00002D64: 14:39:05 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00002D64: 14:39:05 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00002D64: 14:39:05 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00002D64: 14:39:05 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00002D64: 14:39:05 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00002EBC: 14:39:17 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00002EBC: 14:39:17 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00002EBC: 14:39:17 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00002EBC: 14:39:17 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00002EBC: 14:39:17 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00002EBC: 14:39:17 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00000720: 14:39:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 5NzscLW2MG10ED8DE3B ) : Addr: $006E437D
+Disk_Application.exe: 000031DC: 14:55:59 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ihcB7jnWbR10ED8E04E ) : Addr: $006E437D
+Disk_Application.exe: 000017CC: 14:55:59 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ihcB7jnWbR10ED8E04E ) : Addr: $006E437D
+Disk_Application.exe: 00002EBC: 14:58:39 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00002EBC: 14:58:39 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00002EBC: 14:58:40 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00002EBC: 14:58:40 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00002EBC: 14:58:40 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00002EBC: 14:58:40 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00002EBC: 14:58:40 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00002EBC: 14:58:40 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00002EBC: 14:58:40 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00002EBC: 14:58:40 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00002EBC: 14:58:40 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00002EBC: 14:58:40 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00002EBC: 14:58:40 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00002EBC: 14:58:40 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00002718: 14:58:46 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00002718: 14:58:46 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00002718: 14:58:46 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00002718: 14:58:46 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00002718: 14:58:46 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00002718: 14:58:46 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 0000314C: 14:58:47 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: zTd3BeEtEO10ED8E311 ) : Addr: $00ED437D
+Disk_Application.exe: 00002718: 14:59:21 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00002718: 14:59:21 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00002718: 14:59:22 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00002718: 14:59:22 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00002718: 14:59:22 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00002718: 14:59:22 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00002718: 14:59:22 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00002718: 14:59:22 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00002718: 14:59:22 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00002718: 14:59:22 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00002718: 14:59:22 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00002718: 14:59:22 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00002718: 14:59:22 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00002718: 14:59:22 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00002ED0: 14:59:25 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00002ED0: 14:59:25 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00002ED0: 14:59:25 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00002ED0: 14:59:25 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00002ED0: 14:59:25 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00002ED0: 14:59:25 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00002528: 14:59:28 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 5weTTNfPcT10ED8E3D0 ) : Addr: $00A8437D
+Disk_Application.exe: 00002ED0: 15:00:11 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00002ED0: 15:00:11 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00002ED0: 15:00:12 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00002ED0: 15:00:12 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00002ED0: 15:00:12 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00002ED0: 15:00:12 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00002ED0: 15:00:12 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00002ED0: 15:00:12 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00002ED0: 15:00:12 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00002ED0: 15:00:12 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00002ED0: 15:00:12 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00002ED0: 15:00:12 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00002ED0: 15:00:12 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00002ED0: 15:00:12 [Terminated]:Exit Code: 0
+Disk_Application.exe: 000005A0: 15:00:15 []:>--------------------------------------------------------------<
+Disk_Application.exe: 000005A0: 15:00:15 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 000005A0: 15:00:15 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 000005A0: 15:00:15 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 000005A0: 15:00:15 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 000005A0: 15:00:15 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00001E14: 15:00:18 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 4o4HabfmUs10ED8E400 ) : Addr: $00CE437D
+Disk_Application.exe: 000005A0: 15:01:33 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 000005A0: 15:01:33 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 000005A0: 15:01:34 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 000005A0: 15:01:34 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 000005A0: 15:01:34 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 000005A0: 15:01:34 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 000005A0: 15:01:34 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 000005A0: 15:01:34 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 000005A0: 15:01:34 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 000005A0: 15:01:34 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 000005A0: 15:01:34 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 000005A0: 15:01:34 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 000005A0: 15:01:34 []:<-------------------------------------------------------------->
+Disk_Application.exe: 000005A0: 15:01:34 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00001BA0: 15:01:37 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00001BA0: 15:01:37 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00001BA0: 15:01:37 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00001BA0: 15:01:37 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00001BA0: 15:01:37 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00001BA0: 15:01:37 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00003038: 15:01:38 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 4GBXvevxtb10ED8E439 ) : Addr: $010B437D
+Disk_Application.exe: 00001BA0: 15:04:31 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00001BA0: 15:04:31 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00001BA0: 15:04:32 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00001BA0: 15:04:32 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00001BA0: 15:04:32 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00001BA0: 15:04:32 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00001BA0: 15:04:32 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00001BA0: 15:04:32 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00001BA0: 15:04:32 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00001BA0: 15:04:32 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00001BA0: 15:04:32 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00001BA0: 15:04:32 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00001BA0: 15:04:32 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00001BA0: 15:04:32 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00001728: 15:04:35 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00001728: 15:04:35 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00001728: 15:04:35 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00001728: 15:04:35 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Disk_Application.exe: 00001728: 15:04:35 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00001728: 15:04:35 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 0000146C: 15:04:38 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: l8bogOuC6r10ED8E502 ) : Addr: $012B437D

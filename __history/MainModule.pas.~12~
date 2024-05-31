@@ -1,0 +1,96 @@
+unit MainModule;
+
+interface
+
+uses
+  uniGUIMainModule, SysUtils, Classes, Data.DB, DBAccess, Uni, MemDS,
+  UniProvider, MySQLUniProvider;
+
+type
+  Tuni = class(TUniGUIMainModule)
+    UniConnection1: TUniConnection;
+    MySQLUniProvider1: TMySQLUniProvider;
+    qDepts: TUniQuery;
+    qFaculties: TUniQuery;
+    qDeptsdepartment_id: TLongWordField;
+    qDeptsdepartment_name: TStringField;
+    qFacultiesfaculty_id: TLongWordField;
+    qFacultiesfaculty_name: TStringField;
+    dsqDepts: TUniDataSource;
+    dsqFaculties: TUniDataSource;
+    tbDiskAppl: TUniTable;
+    tbDiskApplreg_no: TStringField;
+    tbDiskApplreceipt_no: TStringField;
+    tbDiskApplbay_no: TStringField;
+    tbDiskApplcontact_no: TStringField;
+    tbDiskAppladdress: TStringField;
+    tbDiskApplreg_date: TDateField;
+    Qusertable: TUniQuery;
+    Qusertableuser_no: TLongWordField;
+    Qusertablefirst_name: TStringField;
+    Qusertablesurname: TStringField;
+    Qusertablecontact: TIntegerField;
+    Qusertableaddress: TStringField;
+    QusertableUdeopt: TStringField;
+    Qusertablefuclty_name: TStringField;
+    dsDiskApp: TUniDataSource;
+    dsUsertable: TUniDataSource;
+    qvehmake: TUniQuery;
+    dsVehmake: TUniDataSource;
+    qvehmakevehmake_id: TLongWordField;
+    qvehmakevehmake_name: TStringField;
+    qvehmakevehmake_description: TStringField;
+    qVehcolour: TUniQuery;
+    dsVehcolour: TUniDataSource;
+    qVehcolourcolour_id: TLongWordField;
+    qVehcolourcolour_name: TStringField;
+    qVehcolourcolour_description: TStringField;
+    qvehmodel: TUniQuery;
+    dsVehmodel: TUniDataSource;
+    qvehmodelvehmodel_id: TLongWordField;
+    qvehmodelvehmodel_name: TStringField;
+    tbDiskApplvehmake: TStringField;
+    tbDiskApplvehcolour: TStringField;
+    qStafflog: TUniQuery;
+    dsstaff: TUniDataSource;
+    qStafflogstaffnumber: TIntegerField;
+    qStafflogpassword: TStringField;
+    qDiskapplication: TUniQuery;
+    qDiskapplicationdiskseq_id: TIntegerField;
+    qDiskapplicationreg_no: TStringField;
+    qDiskapplicationreceipt_no: TStringField;
+    qDiskapplicationbay_no: TStringField;
+    qDiskapplicationcontact_no: TStringField;
+    qDiskapplicationaddress: TStringField;
+    qDiskapplicationreg_date: TDateField;
+    tbStafflog: TUniTable;
+    tbStafflogstaffnumber: TIntegerField;
+    tbStafflogpassword: TStringField;
+    tbDiskAppldiskseq_id: TLongWordField;
+    tbDiskAppluser_no: TLongWordField;
+    tbDiskApplvehmakes: TLongWordField;
+    tbDiskApplvehmodel: TLongWordField;
+  private
+    { Private declarations }
+  public
+
+
+  end;
+
+function uni: Tuni;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  UniGUIVars, ServerModule, uniGUIApplication;
+
+function uni: Tuni;
+begin
+  Result := Tuni(UniApplication.UniMainModule)
+end;
+
+initialization
+  RegisterMainModuleClass(Tuni);
+end.

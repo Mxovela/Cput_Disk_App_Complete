@@ -1,0 +1,13 @@
+Disk_Application.exe: 000006A0: 10:42:54 []:>--------------------------------------------------------------<
+Disk_Application.exe: 000006A0: 10:42:54 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 000006A0: 10:42:54 [TUniServerModule]:Start Path = C:\Users\mxove\Downloads\Compressed\disk_application-master\disk_application-master\Documents\Embarcadero\Studio\Projects\Disk_Application\Win32\Debug\
+Disk_Application.exe: 000006A0: 10:42:54 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 000006A0: 10:42:54 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00007948: 10:45:00 [127.0.0.1]:EMyError : #HY000Got error 194 "Tablespace is missing for a table" from storage engine InnoDB : Addr: $012C4EA6
+Disk_Application.exe: 00007948: 10:45:38 [127.0.0.1]:EMyError : #HY000Got error 194 "Tablespace is missing for a table" from storage engine InnoDB : Addr: $012C4EA6
+Disk_Application.exe: 000006A0: 10:52:51 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0
+Disk_Application.exe: 00002D80: 11:09:59 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00002D80: 11:09:59 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00002D80: 11:09:59 [TUniServerModule]:Start Path = C:\Users\mxove\Downloads\Compressed\disk_application-master\disk_application-master\Documents\Embarcadero\Studio\Projects\Disk_Application\Win32\Debug\
+Disk_Application.exe: 00002D80: 11:09:59 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00002D80: 11:09:59 [TUniServerModule]:HTTP Server Started on Port: 8077

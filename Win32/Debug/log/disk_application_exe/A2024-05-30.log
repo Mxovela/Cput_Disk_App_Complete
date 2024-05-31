@@ -1,0 +1,35 @@
+Disk_Application.exe: 00001728: 10:43:19 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00001728: 10:43:19 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00001728: 10:43:20 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00001728: 10:43:20 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00001728: 10:43:20 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00001728: 10:43:20 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00001728: 10:43:20 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00001728: 10:43:20 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00001728: 10:43:20 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00001728: 10:43:20 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00001728: 10:43:20 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00001728: 10:43:20 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00001728: 10:43:20 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00001728: 10:43:20 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00001FF8: 10:43:25 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00001FF8: 10:43:25 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00001FF8: 10:43:25 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00001FF8: 10:43:25 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00001FF8: 10:43:25 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00000A7C: 10:43:28 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00000A7C: 10:43:28 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00000A7C: 10:43:28 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00000A7C: 10:43:28 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00000A7C: 10:43:28 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. : Addr: $0115E20F
+Disk_Application.exe: 000035A0: 10:43:37 []:>--------------------------------------------------------------<
+Disk_Application.exe: 000035A0: 10:43:37 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 000035A0: 10:43:37 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 000035A0: 10:43:37 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 000035A0: 10:43:37 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. : Addr: $0115E20F
+Disk_Application.exe: 0000047C: 10:43:47 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 6toU1g8eKO10ED8E567 ) : Addr: $012B437D
+Disk_Application.exe: 00002C0C: 11:44:45 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: B6uU1ZDCkn10EDBAD3A ) : Addr: $012B437D
+Disk_Application.exe: 000017FC: 11:44:45 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: B6uU1ZDCkn10EDBAD3A ) : Addr: $012B437D
+Disk_Application.exe: 000035A0: 14:22:46 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0
+Disk_Application.exe: 00000A7C: 14:22:46 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0
+Disk_Application.exe: 00001FF8: 14:22:46 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

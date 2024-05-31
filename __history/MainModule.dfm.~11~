@@ -1,0 +1,397 @@
+object uni: Tuni
+  MonitoredKeys.Keys = <>
+  Height = 779
+  Width = 1002
+  object UniConnection1: TUniConnection
+    ProviderName = 'MySQL'
+    Port = 3306
+    Database = 'devdb'
+    Username = 'devuser'
+    Server = '155.238.128.238'
+    Connected = True
+    Left = 56
+    Top = 48
+    EncryptedPassword = 'B9FF98FF92FF91FF8BFF8CFFC8FFC7FFC9FFD4FF'
+  end
+  object MySQLUniProvider1: TMySQLUniProvider
+    Left = 208
+    Top = 48
+  end
+  object qDepts: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select * from departments')
+    Left = 64
+    Top = 136
+    object qDeptsdepartment_id: TLongWordField
+      FieldName = 'department_id'
+    end
+    object qDeptsdepartment_name: TStringField
+      FieldName = 'department_name'
+      Required = True
+      Size = 40
+    end
+  end
+  object qFaculties: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select * from faculties')
+    Left = 72
+    Top = 208
+    object qFacultiesfaculty_id: TLongWordField
+      FieldName = 'faculty_id'
+    end
+    object qFacultiesfaculty_name: TStringField
+      FieldName = 'faculty_name'
+      Required = True
+      Size = 40
+    end
+  end
+  object dsqDepts: TUniDataSource
+    DataSet = qDepts
+    Left = 144
+    Top = 144
+  end
+  object dsqFaculties: TUniDataSource
+    DataSet = qFaculties
+    Left = 152
+    Top = 216
+  end
+  object tbDiskAppl: TUniTable
+    TableName = 'diskapplication'
+    Connection = UniConnection1
+    Left = 64
+    Top = 296
+    object tbDiskAppldiskseq_id: TIntegerField
+      FieldName = 'diskseq_id'
+    end
+    object tbDiskApplreg_no: TStringField
+      FieldName = 'reg_no'
+      Required = True
+    end
+    object tbDiskApplreceipt_no: TStringField
+      FieldName = 'receipt_no'
+      Required = True
+      Size = 10
+    end
+    object tbDiskApplbay_no: TStringField
+      FieldName = 'bay_no'
+    end
+    object tbDiskApplcontact_no: TStringField
+      FieldName = 'contact_no'
+      Required = True
+    end
+    object tbDiskAppladdress: TStringField
+      FieldName = 'address'
+      Required = True
+      Size = 80
+    end
+    object tbDiskApplreg_date: TDateField
+      FieldName = 'reg_date'
+      Required = True
+    end
+    object tbDiskApplfaculty: TStringField
+      FieldKind = fkLookup
+      FieldName = 'faculty'
+      LookupDataSet = qFaculties
+      LookupKeyFields = 'faculty_id'
+      LookupResultField = 'faculty_name'
+      KeyFields = 'diskseq_id'
+      Size = 50
+      Lookup = True
+    end
+    object tbDiskAppldepartment: TStringField
+      FieldKind = fkLookup
+      FieldName = 'department'
+      LookupDataSet = qDepts
+      LookupKeyFields = 'department_id'
+      LookupResultField = 'department_name'
+      KeyFields = 'diskseq_id'
+      Size = 50
+      Lookup = True
+    end
+    object tbDiskApplcampus: TStringField
+      FieldKind = fkLookup
+      FieldName = 'campus'
+      LookupDataSet = qCampus
+      LookupKeyFields = 'campus_id'
+      LookupResultField = 'campus_name'
+      KeyFields = 'diskseq_id'
+      Size = 50
+      Lookup = True
+    end
+    object tbDiskApplvehmake: TStringField
+      FieldKind = fkLookup
+      FieldName = 'vehmake'
+      LookupDataSet = qvehmake
+      LookupKeyFields = 'vehmake_id'
+      LookupResultField = 'vehmake_name'
+      KeyFields = 'diskseq_id'
+      Size = 50
+      Lookup = True
+    end
+    object tbDiskApplvehmodel: TStringField
+      FieldKind = fkLookup
+      FieldName = 'vehmodel'
+      LookupDataSet = qvehmodel
+      LookupKeyFields = 'vehmodel_id'
+      LookupResultField = 'vehmodel_name'
+      KeyFields = 'diskseq_id'
+      Size = 50
+      Lookup = True
+    end
+    object tbDiskApplvehcolour: TStringField
+      FieldKind = fkLookup
+      FieldName = 'vehcolour'
+      LookupDataSet = qVehcolour
+      LookupKeyFields = 'colour_id'
+      LookupResultField = 'colour_name'
+      KeyFields = 'diskseq_id'
+      Size = 50
+      Lookup = True
+    end
+  end
+  object Qusertable: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select * from usertable')
+    Left = 56
+    Top = 448
+    object Qusertableuser_no: TLongWordField
+      FieldName = 'user_no'
+      Required = True
+    end
+    object Qusertablefirst_name: TStringField
+      FieldName = 'first_name'
+      Required = True
+      Size = 40
+    end
+    object Qusertablesurname: TStringField
+      FieldName = 'surname'
+      Required = True
+      Size = 40
+    end
+    object Qusertablecontact: TIntegerField
+      FieldName = 'contact'
+    end
+    object Qusertableaddress: TStringField
+      FieldName = 'address'
+      Size = 50
+    end
+    object QusertableUdeopt: TStringField
+      FieldKind = fkLookup
+      FieldName = ' Udeopt'
+      LookupDataSet = qDepts
+      LookupKeyFields = 'department_id'
+      LookupResultField = 'department_name'
+      KeyFields = 'user_no'
+      Size = 50
+      Lookup = True
+    end
+    object Qusertablefuclty_name: TStringField
+      FieldKind = fkLookup
+      FieldName = 'fuclty_name'
+      LookupDataSet = qFaculties
+      LookupKeyFields = 'faculty_id'
+      LookupResultField = 'faculty_name'
+      KeyFields = 'user_no'
+      Size = 50
+      Lookup = True
+    end
+    object Qusertablecampus_name: TStringField
+      FieldKind = fkLookup
+      FieldName = 'campus_name'
+      LookupDataSet = qCampus
+      LookupKeyFields = 'campus_id'
+      LookupResultField = 'campus_name'
+      KeyFields = 'user_no'
+      Size = 50
+      Lookup = True
+    end
+  end
+  object qCampus: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select * from campus')
+    Left = 56
+    Top = 368
+    object qCampuscampus_id: TIntegerField
+      FieldName = 'campus_id'
+    end
+    object qCampuscampus_name: TStringField
+      FieldName = 'campus_name'
+      Size = 50
+    end
+  end
+  object dsCampus: TUniDataSource
+    DataSet = qCampus
+    Left = 152
+    Top = 376
+  end
+  object dsDiskApp: TUniDataSource
+    DataSet = tbDiskAppl
+    Left = 152
+    Top = 304
+  end
+  object dsUsertable: TUniDataSource
+    DataSet = Qusertable
+    Left = 144
+    Top = 464
+  end
+  object qvehmake: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select * from vehmakes')
+    Left = 56
+    Top = 520
+    object qvehmakevehmake_id: TLongWordField
+      FieldName = 'vehmake_id'
+    end
+    object qvehmakevehmake_name: TStringField
+      FieldName = 'vehmake_name'
+      Required = True
+      Size = 40
+    end
+    object qvehmakevehmake_description: TStringField
+      FieldName = 'vehmake_description'
+      Required = True
+      Size = 40
+    end
+  end
+  object dsVehmake: TUniDataSource
+    DataSet = qvehmake
+    Left = 152
+    Top = 536
+  end
+  object qVehcolour: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select * from vehcolour')
+    Left = 56
+    Top = 608
+    object qVehcolourcolour_id: TLongWordField
+      FieldName = 'colour_id'
+    end
+    object qVehcolourcolour_name: TStringField
+      FieldName = 'colour_name'
+      Required = True
+    end
+    object qVehcolourcolour_description: TStringField
+      FieldName = 'colour_description'
+      Required = True
+      Size = 40
+    end
+  end
+  object dsVehcolour: TUniDataSource
+    DataSet = qVehcolour
+    Left = 144
+    Top = 616
+  end
+  object qvehmodel: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select * from vehmodels')
+    Left = 56
+    Top = 688
+    object qvehmodelvehmodel_id: TLongWordField
+      FieldName = 'vehmodel_id'
+    end
+    object qvehmodelvehmodel_name: TStringField
+      FieldName = 'vehmodel_name'
+      Required = True
+      Size = 40
+    end
+  end
+  object dsVehmodel: TUniDataSource
+    DataSet = qvehmodel
+    Left = 136
+    Top = 688
+  end
+  object qStafflog: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select * from stafflog')
+    Left = 488
+    Top = 392
+    object qStafflogstaffnumber: TIntegerField
+      FieldName = 'staffnumber'
+      Required = True
+    end
+    object qStafflogpassword: TStringField
+      FieldName = 'password'
+      Required = True
+      Size = 50
+    end
+  end
+  object dsstaff: TUniDataSource
+    DataSet = qStafflog
+    Left = 552
+    Top = 384
+  end
+  object tbCampus: TUniTable
+    TableName = 'campus'
+    Connection = UniConnection1
+    Active = True
+    Left = 240
+    Top = 384
+    object tbCampuscampus_id: TIntegerField
+      AutoGenerateValue = arAutoInc
+      FieldName = 'campus_id'
+    end
+    object tbCampuscampus_name: TStringField
+      FieldName = 'campus_name'
+      Size = 50
+    end
+  end
+  object qDiskapplication: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select * from diskapplication')
+    Left = 240
+    Top = 304
+    object qDiskapplicationdiskseq_id: TIntegerField
+      FieldName = 'diskseq_id'
+    end
+    object qDiskapplicationreg_no: TStringField
+      FieldName = 'reg_no'
+      Required = True
+    end
+    object qDiskapplicationreceipt_no: TStringField
+      FieldName = 'receipt_no'
+      Required = True
+      Size = 10
+    end
+    object qDiskapplicationbay_no: TStringField
+      FieldName = 'bay_no'
+    end
+    object qDiskapplicationcontact_no: TStringField
+      FieldName = 'contact_no'
+      Required = True
+    end
+    object qDiskapplicationaddress: TStringField
+      FieldName = 'address'
+      Required = True
+      Size = 80
+    end
+    object qDiskapplicationreg_date: TDateField
+      FieldName = 'reg_date'
+      Required = True
+    end
+  end
+  object tbStafflog: TUniTable
+    TableName = 'stafflog'
+    Connection = UniConnection1
+    Active = True
+    Left = 608
+    Top = 392
+    object tbStafflogstaffnumber: TIntegerField
+      FieldName = 'staffnumber'
+      Required = True
+    end
+    object tbStafflogpassword: TStringField
+      FieldName = 'password'
+      Required = True
+      Size = 50
+    end
+  end
+end
