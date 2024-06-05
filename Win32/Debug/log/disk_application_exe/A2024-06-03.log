@@ -1,0 +1,29 @@
+Disk_Application.exe: 00001BA4: 10:04:06 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00001BA4: 10:04:06 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00001BA4: 10:04:07 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00001BA4: 10:04:07 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00001BA4: 10:04:07 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00001BA4: 10:04:07 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00001BA4: 10:04:07 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00001BA4: 10:04:07 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00001BA4: 10:04:07 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00001BA4: 10:04:07 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00001BA4: 10:04:07 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00001BA4: 10:04:07 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00001BA4: 10:04:07 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00001BA4: 10:04:07 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00000688: 10:04:20 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00000688: 10:04:20 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00000688: 10:04:20 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00000688: 10:04:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00000688: 10:04:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 000006A8: 10:04:25 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: sn8ZozXmxe10EE1B434 ) : Addr: $00F9437D
+Disk_Application.exe: 000027D4: 10:22:48 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: bRmzifv6JS10EE1BBB5 ) : Addr: $00F9437D
+Disk_Application.exe: 00002C8C: 10:30:46 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: GrRvrTFNsw10EE1C0B5 ) : Addr: $00F9437D
+Disk_Application.exe: 000003D4: 13:02:51 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Z3Fnfqht4i10EE1C2DE ) : Addr: $00F9437D
+Disk_Application.exe: 00002730: 13:02:51 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Z3Fnfqht4i10EE1C2DE ) : Addr: $00F9437D
+Disk_Application.exe: 00001404: 13:02:51 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Z3Fnfqht4i10EE1C2DE ) : Addr: $00F9437D
+Disk_Application.exe: 0000163C: 13:07:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ILarrcZjTS10EE1EC1F ) : Addr: $00F9437D
+Disk_Application.exe: 00002998: 13:13:46 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: dZhudjGsSw10EE1ED79 ) : Addr: $00F9437D
+Disk_Application.exe: 00002570: 13:13:46 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: dZhudjGsSw10EE1ED79 ) : Addr: $00F9437D
+Disk_Application.exe: 000015B8: 13:20:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: nz7OTS1a3310EE1EF16 ) : Addr: $00F9437D
