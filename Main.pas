@@ -52,6 +52,12 @@ type
     cmbMake: TUniComboBox;
     centerPanel: TUniPanel;
     savebtn: TUniButton;
+    staffnoedit: TUniEdit;
+    passwordedit: TUniEdit;
+    loginbtn: TUniButton;
+    logoutbtn: TUniButton;
+    frontpanel: TUniPanel;
+    UniImage2: TUniImage;
     procedure loginbtnClick(Sender: TObject);
     procedure submitbtnClick(Sender: TObject);
     procedure diskGridCellClick(Column: TUniDBGridColumn);
@@ -147,70 +153,64 @@ end;
 //  LoadComboboxes;
 //end;
 
-//LOGIN BUTTON
+// Login Button
 procedure TMainForm.loginbtnClick(Sender: TObject);
 var
   Username, Password: string;
-  MainModuleInstance: Tuni;
+  MainModuleInstance: TUni;
 begin
-//  Username := staffedit.Text;
-//  Password := passedit.Text;
-//
-//  // Check if the staff number or password fields are empty
-//  if (Username = '') or (Password = '') then
-//  begin
-//    ShowMessage('Please enter staff number and password as required');
-//    Exit;
-//  end;
-//
-//  // Access the MainModule instance using the uni function
-//  MainModuleInstance := uni;
-//
-//  try
-//    // Prepare SQL query to check credentials
-//    MainModuleInstance.qstafflog.SQL.Text :=
-//      'SELECT COUNT(*) FROM stafflog WHERE staffnumber = :staffnumber AND password = :password';
-//    MainModuleInstance.qstafflog.ParamByName('staffnumber').AsString := Username;
-//    MainModuleInstance.qstafflog.ParamByName('password').AsString := Password;
-//    MainModuleInstance.qstafflog.Open;
-//
-//    // Check if login is successful
-//    if MainModuleInstance.qstafflog.Fields[0].AsInteger > 0 then
-//    begin
-//      ShowMessage('Login Successful, Welcome');
-//      // Hide login controls and show main UI elements
-//      loginbtn.Visible := False;
-//      staffedit.Visible := False;
-//      passedit.Visible := False;
-//      stafflbl.Visible := False;
-//      passlbl.Visible := False;
-//      diskGrid.Visible := True;
-//      UniTreeView1.Visible := True;
-//      logoutbtn.Visible := True;
-//    end
-//    else
-//    begin
-//      ShowMessage('Invalid username or password');
-//    end;
-//  finally
-//    // Close the query after use
-//    MainModuleInstance.qstafflog.Close;
-//  end;
+  Username := staffnoedit.Text;
+  Password := passwordedit.Text;
+
+  if (Username = '') or (Password = '') then
+  begin
+    ShowMessage('Please enter staff number and password as required');
+    Exit;
+  end;
+
+  MainModuleInstance := Uni;
+
+  try
+    MainModuleInstance.qstafflog.SQL.Text :=
+      'SELECT * FROM stafflog WHERE staffnumber = :staffnumber AND password = :password';
+    MainModuleInstance.qstafflog.ParamByName('staffnumber').AsString := Username;
+    MainModuleInstance.qstafflog.ParamByName('password').AsString := Password;
+    MainModuleInstance.qstafflog.Open;
+
+    if MainModuleInstance.qstafflog.RecordCount > 0 then
+    begin
+      ShowMessage('Login Successful, Welcome');
+      frontpanel.Visible := False;
+      loginbtn.Visible := False;
+      staffnoedit.Visible := False;
+      passwordedit.Visible := False;
+      diskGrid.Visible := True;
+      UniTreeView1.Visible := True;
+      logoutbtn.Visible := True;
+      staffnoedit.Clear;
+      passwordedit.Clear;
+    end
+    else
+    begin
+      ShowMessage('Invalid username or password');
+    end;
+  finally
+    MainModuleInstance.qstafflog.Close;
+  end;
 end;
 
-  //LOGOUT BUTTON
+// Logout Button
 procedure TMainForm.logoutbtnClick(Sender: TObject);
 begin
-//   ShowMessage('User logout!');
-//        loginbtn.Visible := True;
-//        staffedit.Visible := True;
-//        passedit.Visible := True;
-//        stafflbl.Visible := True;
-//        passlbl.Visible := True;
-//        //frontpanel.Visible := True;
-//        diskGrid.Visible := False;
-//        UniTreeView1.Visible := False;
-//        logoutbtn.Visible := False;
+  ShowMessage('User logout!');
+  loginbtn.Visible := True;
+  staffnoedit.Visible := True;
+  passwordedit.Visible := True;
+  frontpanel.Visible := True;
+  diskGrid.Visible := False;
+  userGrid.Visible := False;
+  UniTreeView1.Visible := False;
+  logoutbtn.Visible := False;
 end;
 
 
@@ -299,7 +299,7 @@ begin
   if userrad.Checked then
   begin
     userGrid.Visible := True;
-    diskGrid.Visible := True;
+    diskGrid.Visible := False;
     // Search in usertable by user_no or other fields
     MainModuleInstance.Qusertable.Close;
     MainModuleInstance.Qusertable.SQL.Text :=
@@ -461,7 +461,7 @@ var
       else if  Node.Text = 'Users' then
         begin
             try
-            //diskGrid.Visible := False;
+            diskGrid.Visible := False;
             userGrid.Visible := True;
             diskNaviBar.Visible := False;
             userNaviBar.Visible := True;
