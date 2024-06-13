@@ -1,0 +1,2 @@
+Disk_Application.exe: 00001418: 10:31:24 [127.0.0.1]:EUniError : #28000Access denied for user 'devuser'@'MININT-DCOODM3.ADS.CPUT.AC.ZA' (using password: YES) : Addr: $013FCB30
+Disk_Application.exe: 00001418: 10:31:25 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\favicon.ico

@@ -6,12 +6,11 @@ object uni: Tuni
     ProviderName = 'MySQL'
     Port = 3306
     Database = 'devdb'
-    Username = 'devuser'
-    Server = '155.238.128.238'
+    Username = 'root'
+    Server = 'localhost'
     Connected = True
     Left = 56
     Top = 48
-    EncryptedPassword = 'B9FF98FF92FF91FF8BFF8CFFC8FFC7FFC9FFD4FF'
   end
   object MySQLUniProvider1: TMySQLUniProvider
     Left = 208
@@ -61,48 +60,33 @@ object uni: Tuni
     Connection = UniConnection1
     SQL.Strings = (
       'select * from usertable')
+    Active = True
     Left = 56
     Top = 448
-    object Qusertableuser_no: TLongWordField
+    object Qusertableuser_no: TIntegerField
       FieldName = 'user_no'
       Required = True
     end
     object Qusertablefirst_name: TStringField
       FieldName = 'first_name'
       Required = True
-      Size = 40
     end
-    object Qusertablesurname: TStringField
-      FieldName = 'surname'
+    object Qusertablelast_name: TStringField
+      FieldName = 'last_name'
       Required = True
-      Size = 40
-    end
-    object Qusertablecontact: TIntegerField
-      FieldName = 'contact'
     end
     object Qusertableaddress: TStringField
       FieldName = 'address'
-      Size = 50
+      Required = True
+      Size = 30
     end
-    object QusertableUdeopt: TStringField
-      FieldKind = fkLookup
-      FieldName = ' Udeopt'
-      LookupDataSet = qDepts
-      LookupKeyFields = 'department_id'
-      LookupResultField = 'department_name'
-      KeyFields = 'user_no'
-      Size = 50
-      Lookup = True
+    object Qusertableudeopt: TStringField
+      FieldName = 'udeopt'
+      Required = True
     end
-    object Qusertablefuclty_name: TStringField
-      FieldKind = fkLookup
-      FieldName = 'fuclty_name'
-      LookupDataSet = qFaculties
-      LookupKeyFields = 'faculty_id'
-      LookupResultField = 'faculty_name'
-      KeyFields = 'user_no'
-      Size = 50
-      Lookup = True
+    object Qusertablecontact_no: TIntegerField
+      FieldName = 'contact_no'
+      Required = True
     end
   end
   object dsUsertable: TUniDataSource
@@ -152,7 +136,6 @@ object uni: Tuni
   object tbStafflog: TUniTable
     TableName = 'stafflog'
     Connection = UniConnection1
-    Active = True
     Left = 608
     Top = 392
     object tbStafflogstaffnumber: TIntegerField
@@ -169,7 +152,6 @@ object uni: Tuni
     TableName = 'vehmodels'
     OrderFields = 'vehmodel_name'
     Connection = UniConnection1
-    Active = True
     IndexFieldNames = 'vehmodel_id'
     Left = 48
     Top = 704
@@ -192,7 +174,6 @@ object uni: Tuni
     TableName = 'vehcolour'
     OrderFields = 'colour_name'
     Connection = UniConnection1
-    Active = True
     IndexFieldNames = 'colour_id'
     Left = 48
     Top = 616
@@ -214,7 +195,6 @@ object uni: Tuni
     TableName = 'vehmakes'
     OrderFields = 'vehmake_name'
     Connection = UniConnection1
-    Active = True
     IndexFieldNames = 'vehmake_id'
     Left = 40
     Top = 536
@@ -237,7 +217,6 @@ object uni: Tuni
     Connection = UniConnection1
     SQL.Strings = (
       'SELECT * FROM vehmakes')
-    Active = True
     Left = 248
     Top = 552
     object qvehmakesvehmake_id: TLongWordField
@@ -259,7 +238,6 @@ object uni: Tuni
     Connection = UniConnection1
     SQL.Strings = (
       'SELECT * FROM vehcolour')
-    Active = True
     Left = 240
     Top = 640
     object qvehcolourcolour_id: TLongWordField
@@ -280,7 +258,6 @@ object uni: Tuni
     Connection = UniConnection1
     SQL.Strings = (
       'SELECT * FROM vehmodels')
-    Active = True
     Left = 248
     Top = 712
     object qvehmodelsvehmodel_id: TLongWordField

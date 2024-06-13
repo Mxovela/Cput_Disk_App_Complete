@@ -19,13 +19,6 @@ type
     dsqDepts: TUniDataSource;
     dsqFaculties: TUniDataSource;
     Qusertable: TUniQuery;
-    Qusertableuser_no: TLongWordField;
-    Qusertablefirst_name: TStringField;
-    Qusertablesurname: TStringField;
-    Qusertablecontact: TIntegerField;
-    Qusertableaddress: TStringField;
-    QusertableUdeopt: TStringField;
-    Qusertablefuclty_name: TStringField;
     dsUsertable: TUniDataSource;
     dsVehmake: TUniDataSource;
     dsVehcolour: TUniDataSource;
@@ -61,6 +54,12 @@ type
     qvehmodelsvehmodel_id: TLongWordField;
     qvehmodelsvehmodel_name: TStringField;
     dsDiskApp: TUniDataSource;
+    Qusertableuser_no: TIntegerField;
+    Qusertablefirst_name: TStringField;
+    Qusertablelast_name: TStringField;
+    Qusertableaddress: TStringField;
+    Qusertableudeopt: TStringField;
+    Qusertablecontact_no: TIntegerField;
   private
     { Private declarations }
   public

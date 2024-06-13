@@ -7,7 +7,8 @@ uses
   Vcl.Imaging.pngimage, uniImage, uniLabel, uniButton, uniEdit, uniDBNavigator,
   uniBasicGrid, uniDBGrid, uniTreeView, uniRadioButton, Data.DB, DBAccess, MemDS,
   uniMultiItem, uniComboBox, uniDBComboBox, uniDBLookupComboBox, uniDBEdit,
-  uniDateTimePicker, uniRadioGroup, uniDBRadioGroup, uniDBDateTimePicker;                                                                                                                                                                                                                                                                                                           //Mxolisi Ndovela
+  uniDateTimePicker, uniRadioGroup, uniDBRadioGroup, uniDBDateTimePicker,
+  uniTabControl;                                                                                                                                                                                                                                                                                                           //Mxolisi Ndovela
 type
   TMainForm = class(TUniForm)
     backgroundPanel: TUniPanel;
@@ -304,7 +305,7 @@ begin
     MainModuleInstance.Qusertable.Close;
     MainModuleInstance.Qusertable.SQL.Text :=
       'SELECT * FROM usertable WHERE user_no = :searchValue OR ' +
-      'first_name LIKE :searchPattern OR surname LIKE :searchPattern';
+      'first_name LIKE :searchPattern OR last_name LIKE :searchPattern';
     MainModuleInstance.Qusertable.ParamByName('searchValue').AsString := searchValue;
     MainModuleInstance.Qusertable.ParamByName('searchPattern').AsString := '%' + searchValue + '%';
     MainModuleInstance.Qusertable.Open;
@@ -517,7 +518,9 @@ begin
   begin
     UniEditUser_id.Text := userGrid.DataSource.DataSet.FieldByName('user_no').AsString;
     UniEditFirstname.Text := userGrid.DataSource.DataSet.FieldByName('first_name').AsString;
-    UniEditSurname.Text := userGrid.DataSource.DataSet.FieldByName('surname').AsString;
+    UniEditSurname.Text := userGrid.DataSource.DataSet.FieldByName('last_name').AsString;
+      UniEditContactno.Text := userGrid.DataSource.DataSet.FieldByName('contact_no').AsString;
+      UniEditAddress.Text := userGrid.DataSource.DataSet.FieldByName('address').AsString;
 
     // Get the user_no from the selected user record
     UserNo := userGrid.DataSource.DataSet.FieldByName('user_no').AsString;
@@ -537,8 +540,6 @@ begin
       cmbColour.Text := MainModuleInstance.qDiskapplication.FieldByName('vehcolour').AsString;
       UniEditRecno.Text := MainModuleInstance.qDiskapplication.FieldByName('receipt_no').AsString;
       UniEditBayno.Text := MainModuleInstance.qDiskapplication.FieldByName('bay_no').AsString;
-      UniEditContactno.Text := MainModuleInstance.qDiskapplication.FieldByName('contact_no').AsString;
-      UniEditAddress.Text := MainModuleInstance.qDiskapplication.FieldByName('address').AsString;
       datePicker.DateTime := MainModuleInstance.qDiskapplication.FieldByName('reg_date').AsDateTime;
     end
     else
@@ -550,8 +551,8 @@ begin
       cmbColour.Text := '';
       UniEditRecno.Clear;
       UniEditBayno.Clear;
-      UniEditContactno.Clear;
-      UniEditAddress.Clear;
+//      UniEditContactno.Clear;
+//      UniEditAddress.Clear;
       datePicker.DateTime := Now; // Set the date picker to today's date
     end;
   end
@@ -600,8 +601,6 @@ begin
     cmbColour.Text := DiskGrid.DataSource.DataSet.FieldByName('vehcolour').AsString;
     UniEditRecno.Text := DiskGrid.DataSource.DataSet.FieldByName('receipt_no').AsString;
     UniEditBayno.Text := DiskGrid.DataSource.DataSet.FieldByName('bay_no').AsString;
-    UniEditContactno.Text := DiskGrid.DataSource.DataSet.FieldByName('contact_no').AsString;
-    UniEditAddress.Text := DiskGrid.DataSource.DataSet.FieldByName('address').AsString;
     datePicker.DateTime := DiskGrid.DataSource.DataSet.FieldByName('reg_date').AsDateTime;
 
     // Get the user_no from the selected disk application record
@@ -618,7 +617,9 @@ begin
     begin
       UniEditUser_id.Text := MainModuleInstance.Qusertable.FieldByName('user_no').AsString;
       UniEditFirstname.Text := MainModuleInstance.Qusertable.FieldByName('first_name').AsString;
-      UniEditSurname.Text := MainModuleInstance.Qusertable.FieldByName('surname').AsString;
+      UniEditSurname.Text := MainModuleInstance.Qusertable.FieldByName('last_name').AsString;
+      UniEditContactno.Text := MainModuleInstance.Qusertable.FieldByName('contact_no').AsString;
+      UniEditAddress.Text := MainModuleInstance.Qusertable.FieldByName('address').AsString;
     end;
   end
   else

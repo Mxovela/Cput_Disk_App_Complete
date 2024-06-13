@@ -1,0 +1,44 @@
+Disk_Application.exe: 0000285C: 10:02:05 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: QnDKqwbO6I10EE66B79 ) : Addr: $012C437D
+Disk_Application.exe: 0000285C: 10:02:07 [127.0.0.1]:EUniError : #28000Access denied for user 'devuser'@'MININT-DCOODM3.ADS.CPUT.AC.ZA' (using password: YES) : Addr: $013FCB30
+Disk_Application.exe: 0000285C: 10:02:07 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\favicon.ico
+Disk_Application.exe: 000008CC: 10:02:13 [127.0.0.1]:EUniError : #28000Access denied for user 'devuser'@'MININT-DCOODM3.ADS.CPUT.AC.ZA' (using password: YES) : Addr: $013FCB30
+Disk_Application.exe: 000036F8: 10:02:35 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 000036F8: 10:02:35 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 000036F8: 10:02:36 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 000036F8: 10:02:36 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 000036F8: 10:02:36 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 000036F8: 10:02:36 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 000036F8: 10:02:36 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 000036F8: 10:02:36 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 000036F8: 10:02:36 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 000036F8: 10:02:36 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 000036F8: 10:02:36 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 000036F8: 10:02:36 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 000036F8: 10:02:36 []:<-------------------------------------------------------------->
+Disk_Application.exe: 000036F8: 10:02:36 [Terminated]:Exit Code: 0
+Disk_Application.exe: 00003664: 10:02:37 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00003664: 10:02:37 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00003664: 10:02:37 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00003664: 10:02:37 [TUniGUISessionManager]:Cache erase job created, Folder count: [2]
+Disk_Application.exe: 00003444: 10:02:37 []:>--------------------------------------------------------------<
+Disk_Application.exe: 00003444: 10:02:37 [TUniServerModule]:Server First Init.
+Disk_Application.exe: 00003444: 10:02:37 [TUniServerModule]:Start Path = C:\Users\admin\Downloads\disk-application-master\disk-application-master\Win32\Debug\
+Disk_Application.exe: 00003664: 10:02:37 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00003444: 10:02:37 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Disk_Application.exe: 00003444: 10:02:37 [TUniServerModule]:HTTP Server Started on Port: 8077
+Disk_Application.exe: 00003664: 10:02:37 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. : Addr: $0116E20F
+Disk_Application.exe: 00003F68: 10:02:41 [127.0.0.1]:EUniError : #28000Access denied for user 'devuser'@'MININT-DCOODM3.ADS.CPUT.AC.ZA' (using password: YES) : Addr: $013FCB30
+Disk_Application.exe: 00003664: 11:31:48 [TUniServerModule]:Shutting Down Server.
+Disk_Application.exe: 00003664: 11:31:48 [TUniServerModule]:Stopping HTTP Server.
+Disk_Application.exe: 00003664: 11:31:48 [TUniServerModule]:HTTP Server Stopped.
+Disk_Application.exe: 00003664: 11:31:48 [TUniGUISessionManager]:Terminating Session manager.
+Disk_Application.exe: 00003664: 11:31:48 [TUniGUISessionManager]:Stopping Cache Eraser...
+Disk_Application.exe: 00003664: 11:31:48 [TUniGUISessionManager]:Cache Eraser Stopped.
+Disk_Application.exe: 00003664: 11:31:48 [TUniGUISessionManager]:Destroying Worker Threads.
+Disk_Application.exe: 00003664: 11:31:48 [TUniGUISessionManager]:Session manager terminated.
+Disk_Application.exe: 00003664: 11:31:48 [TUniWebSocketStack]:Terminating...
+Disk_Application.exe: 00003664: 11:31:48 [TUniGUIMessageQ]:Terminated.
+Disk_Application.exe: 00003664: 11:31:48 [TUniWebSocketStack]:Terminated.
+Disk_Application.exe: 00003664: 11:31:48 [TUniServerModule]:Server Shutdown Completed.
+Disk_Application.exe: 00003664: 11:31:48 []:<-------------------------------------------------------------->
+Disk_Application.exe: 00003664: 11:31:48 [Terminated]:Exit Code: 0
